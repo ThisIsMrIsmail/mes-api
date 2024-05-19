@@ -188,7 +188,6 @@ class KnowledgeBase:
             },
         ]
 
-
 class ExpertSystem:
     def __init__(self, patient_symptoms):
         self.symptoms = patient_symptoms
