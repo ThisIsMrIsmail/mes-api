@@ -44,7 +44,6 @@ arguments = [
     "nausea",
     "blurred_vision",
 ]
-
 class KnowledgeBase:
     def __init__(self):
         self.diseases = [
@@ -188,6 +187,7 @@ class KnowledgeBase:
                 'treatment': 'Psychotherapy, medications like anti-anxiety drugs or antidepressants, lifestyle changes, and stress management techniques.'
             },
         ]
+
 class ExpertSystem:
     def __init__(self, patient_symptoms):
         self.symptoms = patient_symptoms
